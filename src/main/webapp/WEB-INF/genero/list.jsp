@@ -12,14 +12,14 @@
 <body>
     <div class="container">
         <h1>Gêneros</h1>
-        <a href="/generos/insert" class="btn btn-primary">Novo Gênero</a>
+        <a href="/genero/insert" class="btn btn-primary">Novo Gênero</a>
         <table class="table">
             <tr>
                 <th>Id</th>
                 <th>Nome</th>
                 <th>&nbsp;</th>
             </tr>
-            <c:forEah var="item" items="${generos">
+            <c:forEah var="item" items="${generos}">
                 <tr>
                     <td>${item.id}</td>
                     <td>${item.nome}</td>
